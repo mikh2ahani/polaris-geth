@@ -10,7 +10,7 @@ run:
     - core/genesis_alloc.go
 
 linters:
-  disable-all: true
+  disable-all: false
   enable:
     - goconst
     - goimports
